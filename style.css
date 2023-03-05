@@ -1,0 +1,132 @@
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 300px;
+  padding-top: 120px;
+  
+  
+}
+.top-section{
+  height: 100px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(192, 192, 192);
+  
+  
+}
+.header-name{
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  width: 250px;
+  
+}
+
+.header-button{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: rgb(209, 209, 18);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 50px;
+  padding-left: 80px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  
+  }
+
+.thumbnail{
+  width: 280px;
+  display: block; 
+  
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  margin-bottom: 0;
+
+}
+.video-preview{
+  width: 290px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 0px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-width: 1px;
+  background-color: rgb(240, 233, 233);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  
+
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.title-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.para-one{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 14px;
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+
+.para-two{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+.para-three{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700px;
+  margin-top: 0;
+  color: white;
+  background-color: black;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+  
+}
+.para-three:hover{
+  background-color:rgb(219, 219, 9);
+  color: black;
+  opacity: 0.9;
+}
